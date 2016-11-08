@@ -75,7 +75,7 @@ namespace DragonsTooth
                     board.TheMap[player.LocY, player.LocX].MonsterHere = false;
                     player.Exp += 10; // update then display
                     Console.SetCursorPosition(hud.exp.X, hud.exp.Y);
-                    Console.Write(player.Exp);
+                    Console.Write(player.Exp + " / " + player.ExpToNext);
 
                 }
 
