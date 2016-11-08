@@ -74,6 +74,7 @@ namespace DragonsTooth
                     Console.WriteLine("You just ate a monster");
                     board.TheMap[player.LocY, player.LocX].MonsterHere = false;
                     player.Exp += 10; // update then display
+                    
                     Console.SetCursorPosition(hud.exp.X, hud.exp.Y);
                     Console.Write(player.Exp + " / " + player.ExpToNext);
 

@@ -11,7 +11,7 @@ namespace DragonsTooth
         static void Main(string[] args)
         {
             int row = 30; // height
-            int col = 70; // width
+            int col = 100; // width
 
             int windowX = col + 25; // width
             int windowY = row + 20; // height
